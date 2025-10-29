@@ -215,7 +215,7 @@
 
         <div class="mt-auto pt-3">
           <a href="{{ route('berita.show', $p) }}"
-             class="inline-flex items-center gap-1 h-8 px-2.5 rounded-lg bg-accent text-white text-xs
+             class="inline-flex items-center gap-1 h-10 px-2.5 rounded-lg bg-accent text-white text-xs
                     hover:bg-accent/90 transition">
             Baca Selengkapnya
             <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M13 5l7 7-7 7-1.4-1.4L16.2 13H4v-2h12.2l-4.6-4.6L13 5z"/></svg>

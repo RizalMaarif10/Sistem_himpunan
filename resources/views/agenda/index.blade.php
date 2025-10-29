@@ -108,11 +108,11 @@
             {{-- Actions: selalu sejajar di bawah --}}
             <div class="mt-auto pt-3 flex items-center gap-2">
               <a href="{{ route('agenda.show', $e) }}"
-                 class="inline-flex items-center h-8 px-2.5 rounded-lg border border-accent/60 text-accent text-xs
+                 class="inline-flex items-center h-8 px-2.5 rounded-lg border border-accent/60 text-accent text-xs font-bold
                         hover:bg-accent hover:text-white transition">Detail</a>
               @if($e->registration_link)
                 <a href="{{ $e->registration_link }}" target="_blank" rel="noopener"
-                   class="inline-flex items-center h-8 px-2.5 rounded-lg bg-accent text-white text-xs
+                   class="inline-flex items-center h-8 px-2.5 rounded-lg bg-accent text-white text-xs font-bold
                           hover:bg-accent/90 transition">Daftar</a>
               @endif
             </div>
